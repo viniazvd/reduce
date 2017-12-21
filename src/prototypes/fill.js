@@ -4,7 +4,7 @@ const fill = (array, value) => {
   if (empty(array)) return []
 
   return array.reduce((acc, cur) => {
-    acc = acc.concat(value)
+    acc = [...acc, value]
 
     return acc
   }, [])

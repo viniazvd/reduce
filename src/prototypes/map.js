@@ -1,6 +1,7 @@
 const map = (array, fn) => {
   return array.reduce((acc, cur) => {
-    acc.push(fn(cur))
+    if (fn(cur)) acc = [...acc, fn(cur)]
+
     return acc
   }, [])
 }
