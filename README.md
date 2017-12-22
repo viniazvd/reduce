@@ -1,1 +1,3 @@
-# reduce
+# freecodecamp-challenges
+
+- https://www.freecodecamp.org
